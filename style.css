@@ -1,0 +1,57 @@
+/*style.css*/
+@font-face {
+    font-family: 'WandohopeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '국립박물관문화재단클래식B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'WandohopeB';
+    font-size: 4rem;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+.title_of_picture {
+    font-family: '국립박물관문화재단클래식B';
+    text-align: center;
+    font-size:1.2rem;
+    background-color: bisque;
+}
+.name_of_picture {
+    font-family: 'Stylish', sans-serif;
+    text-align: right;
+    font-size:0.9rem;
+}
+.last {
+    text-align: right;
+    margin: 0.5rem 4rem 2rem;
+}
+.photo {
+    width: 10rem;
+    height: 10rem;
+}
+.all_frame {
+    text-align: center;
+}
+.parent_frame {
+    text-align: center;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0.2rem;
+}
+.frame {
+    border: 3px dotted white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.2rem;
+    background-color:lightgoldenrodyellow;
+    
+}
